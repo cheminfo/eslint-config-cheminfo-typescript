@@ -1,5 +1,28 @@
 'use strict';
 
-// Make sure there is no syntax error
-// TODO verify the config is correct using ESLint
-require('..');
+const assert = require('assert');
+const util = require('util');
+const { CLIEngine } = require('eslint');
+
+const engine = new CLIEngine({ configFile: 'index.js' });
+
+const [okResult, notOkResult] = engine.executeOnFiles([
+  'test/ok.ts',
+  'test/notOk.ts'
+]).results;
+
+assert.strictEqual(
+  okResult.errorCount,
+  0,
+  'ok.js should have no error: ' + util.format(okResult)
+);
+
+const errors = notOkResult.messages
+  .filter(isError)
+  .map((error) => error.ruleId)
+  .sort();
+assert.deepStrictEqual(errors, ['@typescript-eslint/interface-name-prefix']);
+
+function isError(message) {
+  return message.severity === 2;
+}

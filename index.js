@@ -2,11 +2,11 @@
 
 module.exports = {
   extends: 'cheminfo',
-  parser: 'eslint-plugin-typescript/parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module'
   },
-  plugins: ['typescript'],
+  plugins: ['@typescript-eslint'],
   settings: {
     'import/resolver': {
       node: {
@@ -15,47 +15,47 @@ module.exports = {
     }
   },
   rules: {
-    'typescript/adjacent-overload-signatures': 'error',
-    'typescript/array-type': 'error',
-    'typescript/ban-types': 'error',
+    '@typescript-eslint/adjacent-overload-signatures': 'error',
+    '@typescript-eslint/array-type': 'error',
+    '@typescript-eslint/ban-types': 'error',
     camelcase: 'off',
-    'typescript/camelcase': ['error', { properties: 'always' }],
-    'typescript/class-name-casing': 'error',
-    'typescript/explicit-function-return-type': [
+    '@typescript-eslint/camelcase': ['error', { properties: 'always' }],
+    '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/explicit-function-return-type': [
       'error',
       { allowExpressions: true }
     ],
-    'typescript/explicit-member-accessibility': 'error',
-    'typescript/generic-type-naming': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'error',
+    '@typescript-eslint/generic-type-naming': 'off',
     indent: 'off',
-    'typescript/indent': ['error', 2, { SwitchCase: 1 }],
-    'typescript/interface-name-prefix': ['error', 'always'],
-    'typescript/member-delimiter-style': 'error',
-    'typescript/member-naming': 'off',
-    'typescript/member-ordering': 'off',
-    'typescript/no-angle-bracket-type-assertion': 'error',
-    'typescript/no-array-constructor': 'error',
-    'typescript/no-empty-interface': 'error',
-    'typescript/no-explicit-any': 'error',
-    'typescript/no-extraneous-class': 'error',
-    'typescript/no-inferrable-types': 'error',
-    'typescript/no-misused-new': 'error',
-    'typescript/no-namespace': 'error',
-    'typescript/no-non-null-assertion': 'error',
-    'typescript/no-object-literal-type-assertion': 'error',
-    'typescript/no-parameter-properties': 'error',
-    'typescript/no-this-alias': 'error',
-    'typescript/no-triple-slash-reference': 'error',
-    'typescript/no-type-alias': 'off',
+    '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1 }],
+    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
+    '@typescript-eslint/member-delimiter-style': 'error',
+    '@typescript-eslint/member-naming': 'off',
+    '@typescript-eslint/member-ordering': 'off',
+    '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+    '@typescript-eslint/no-array-constructor': 'error',
+    '@typescript-eslint/no-empty-interface': 'error',
+    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-extraneous-class': 'error',
+    '@typescript-eslint/no-inferrable-types': 'error',
+    '@typescript-eslint/no-misused-new': 'error',
+    '@typescript-eslint/no-namespace': 'error',
+    '@typescript-eslint/no-non-null-assertion': 'error',
+    '@typescript-eslint/no-object-literal-type-assertion': 'error',
+    '@typescript-eslint/no-parameter-properties': 'error',
+    '@typescript-eslint/no-this-alias': 'error',
+    '@typescript-eslint/no-triple-slash-reference': 'error',
+    '@typescript-eslint/no-type-alias': 'off',
     'no-unused-vars': 'off',
-    'typescript/no-unused-vars': [
+    '@typescript-eslint/no-unused-vars': [
       'error',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: false }
     ],
-    'typescript/no-use-before-define': 'off',
-    'typescript/no-var-requires': 'error',
-    'typescript/prefer-interface': 'error',
-    'typescript/prefer-namespace-keyword': 'error',
-    'typescript/type-annotation-spacing': 'error'
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-var-requires': 'error',
+    '@typescript-eslint/prefer-interface': 'error',
+    '@typescript-eslint/prefer-namespace-keyword': 'error',
+    '@typescript-eslint/type-annotation-spacing': 'error'
   }
 };
