@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v2.0.0...v3.0.0) (2019-01-25)
+
+
+### Features
+
+* upgrade to [@typescript-eslint](https://github.com/typescript-eslint)/eslint-plugin ([e07e904](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/e07e904))
+
+
+### BREAKING CHANGES
+
+* The peer dependencies have changed after upgrade to @typescript-eslint/eslint-plugin.
+
+
+
 # [2.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v1.0.1...v2.0.0) (2018-12-22)
 
 
