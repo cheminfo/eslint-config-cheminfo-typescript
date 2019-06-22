@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v3.0.0...v3.0.1) (2019-06-22)
+
+
+### Bug Fixes
+
+* disable no-explicit-any rule ([cb9575b](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/cb9575b)), closes [#2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/2)
+
+
+
 # [3.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v2.0.0...v3.0.0) (2019-01-25)
 
 
