@@ -1,3 +1,12 @@
+## [4.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.0...v4.0.1) (2019-07-24)
+
+
+### Bug Fixes
+
+* disable no-magic-numbers rule ([2886607](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/2886607))
+
+
+
 # [4.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v3.0.1...v4.0.0) (2019-07-24)
 
 
