@@ -1,3 +1,3 @@
-export interface X {
+export type X = {
   v: string;
-}
+};

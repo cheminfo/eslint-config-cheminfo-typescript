@@ -1,3 +1,3 @@
-export interface IX {
+export interface X {
   v: string;
 }
