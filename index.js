@@ -12,6 +12,14 @@ module.exports = {
     project: 'tsconfig.json',
   },
   plugins: ['@typescript-eslint'],
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.{ts,tsx}', '*.test.{ts,tsx}'],
+      rules: {
+        '@typescript-eslint/ban-ts-ignore': 'off',
+      },
+    },
+  ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': 'error',
