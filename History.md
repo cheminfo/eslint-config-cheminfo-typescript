@@ -1,3 +1,12 @@
+## [4.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.1...v4.0.2) (2019-08-02)
+
+
+### Bug Fixes
+
+* do not ban ts-ignore in tests ([2131258](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/2131258))
+
+
+
 ## [4.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.0...v4.0.1) (2019-07-24)
 
 
