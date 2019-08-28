@@ -1,3 +1,12 @@
+## [4.1.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.1.0...v4.1.1) (2019-08-28)
+
+
+### Bug Fixes
+
+* remove rules that don't exist anymore ([12d2ce5](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/12d2ce5))
+
+
+
 # [4.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.2...v4.1.0) (2019-08-28)
 
 
