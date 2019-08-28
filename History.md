@@ -1,3 +1,12 @@
+# [4.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.2...v4.1.0) (2019-08-28)
+
+
+### Features
+
+* move to typescript-eslint@2 ([ac8fa83](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/ac8fa83))
+
+
+
 ## [4.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.0.1...v4.0.2) (2019-08-02)
 
 
