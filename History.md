@@ -1,3 +1,12 @@
+## [4.1.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.1.1...v4.1.2) (2019-11-04)
+
+
+### Bug Fixes
+
+* update jest plugin ([acfb832](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/acfb832d45347f8678fa7759d5da3112b4a7efd4))
+
+
+
 ## [4.1.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.1.0...v4.1.1) (2019-08-28)
 
 
