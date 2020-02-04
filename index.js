@@ -22,7 +22,7 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
-    '@typescript-eslint/array-type': 'error',
+    '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/ban-types': 'error',
@@ -54,7 +54,13 @@ module.exports = {
     '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-extraneous-class': 'error',
-    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/no-floating-promises': [
+      'error',
+      {
+        ignoreVoid: true,
+      },
+    ],
+    'no-void': 'off',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-magic-numbers': 'off',
@@ -82,7 +88,7 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'off',
     '@typescript-eslint/prefer-regexp-exec': 'off',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
-    '@typescript-eslint/promise-function-async': 'error',
+    '@typescript-eslint/promise-function-async': 'off',
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/restrict-plus-operands': 'off',
