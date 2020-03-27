@@ -1,3 +1,17 @@
+# [5.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.1.3...v5.0.0) (2020-03-27)
+
+
+### chore
+
+* update dependencies ([9fff51b](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/9fff51be82dfc700aebf6bf46c5d381652910034))
+
+
+### BREAKING CHANGES
+
+* Breaking changes in base config
+
+
+
 ## [4.1.3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v4.1.2...v4.1.3) (2020-02-04)
 
 
