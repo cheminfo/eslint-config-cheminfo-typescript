@@ -5,7 +5,7 @@ Shared ESLint config for TypeScript projects.
 ## Installation
 
 ```console
-npx install-peerdeps --dev eslint-config-cheminfo-typescript
+npx i -D eslint-config-cheminfo-typescript eslint prettier
 ```
 
 ## Usage
