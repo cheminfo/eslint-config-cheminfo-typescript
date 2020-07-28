@@ -1,3 +1,7 @@
+# [7.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v6.0.0...v7.0.0) (2020-07-28)
+
+
+
 # [6.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v5.0.0...v6.0.0) (2020-05-25)
 
 
