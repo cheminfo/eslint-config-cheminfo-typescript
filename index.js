@@ -68,10 +68,11 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 'off',
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-    '@typescript-eslint/no-unsafe-assignment': 'error',
-    '@typescript-eslint/no-unsafe-call': 'error',
-    '@typescript-eslint/no-unsafe-member-access': 'error',
-    '@typescript-eslint/no-unsafe-return': 'error',
+    // TODO: enable no-unsafe rules when we are ready to ban `any` everywhere.
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    '@typescript-eslint/no-unsafe-return': 'off',
     '@typescript-eslint/no-var-requires': 'error',
     '@typescript-eslint/prefer-as-const': 'error',
     '@typescript-eslint/prefer-enum-initializers': 'warn',
@@ -91,7 +92,10 @@ module.exports = {
     '@typescript-eslint/promise-function-async': 'off',
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
-    '@typescript-eslint/restrict-template-expressions': 'error',
+    '@typescript-eslint/restrict-template-expressions': [
+      'error',
+      { allowAny: true },
+    ],
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/triple-slash-reference': 'error',
@@ -100,6 +104,8 @@ module.exports = {
     '@typescript-eslint/unified-signatures': 'off',
 
     // Extension rules (https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#extension-rules)
+    // There is no "@typescript-eslint/no-undef" rule, but we don't need it because TypeScript already flags missing global variables.
+    'no-undef': 'off',
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': 'error',
     'dot-notation': 'off',
