@@ -1,3 +1,17 @@
+# [8.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v7.0.0...v8.0.0) (2020-09-23)
+
+
+### Features
+
+* add many rules ([f8a209a](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/f8a209a529c59fdedc3ffb0b4a4df238d8024975))
+
+
+### BREAKING CHANGES
+
+* Many new rules were added.
+
+
+
 # [7.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v6.0.0...v7.0.0) (2020-07-28)
 
 
