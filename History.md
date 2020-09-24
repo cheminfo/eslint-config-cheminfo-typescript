@@ -1,3 +1,12 @@
+## [8.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.1...v8.0.2) (2020-09-24)
+
+
+### Bug Fixes
+
+* disable too restrictive rules ([99463e7](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/99463e7c1860a4b124b2780a4fa5a39d454afa96))
+
+
+
 ## [8.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.0...v8.0.1) (2020-09-23)
 
 
