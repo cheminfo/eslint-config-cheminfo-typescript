@@ -127,7 +127,7 @@ module.exports = {
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'error',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
     'no-return-await': 'off',
     '@typescript-eslint/return-await': 'error',
   },
