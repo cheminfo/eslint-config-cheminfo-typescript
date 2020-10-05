@@ -1,3 +1,12 @@
+## [8.0.3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.2...v8.0.3) (2020-10-05)
+
+
+### Bug Fixes
+
+* ignore rest siblings in no-unused-vars ([5c77912](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/5c77912979c6d06aff850ffc86433114d3461914))
+
+
+
 ## [8.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.1...v8.0.2) (2020-09-24)
 
 
