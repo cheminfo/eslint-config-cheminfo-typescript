@@ -1,3 +1,10 @@
+### [8.0.4](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.3...v8.0.4) (2020-10-20)
+
+
+### Bug Fixes
+
+* only apply rules to TypeScript files ([4761989](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/4761989c15344e38cb75eeecc7af216a1f654c75))
+
 ## [8.0.3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.2...v8.0.3) (2020-10-05)
 
 
