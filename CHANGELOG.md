@@ -1,3 +1,5 @@
+# Changelog
+
 ### [8.0.4](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.3...v8.0.4) (2020-10-20)
 
 
