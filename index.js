@@ -59,7 +59,6 @@ module.exports = {
         '@typescript-eslint/no-parameter-properties': 'error',
         '@typescript-eslint/no-require-imports': 'off',
         '@typescript-eslint/no-this-alias': 'error',
-        '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-type-alias': 'off',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
         '@typescript-eslint/no-unnecessary-condition': 'off',
@@ -123,6 +122,8 @@ module.exports = {
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': 'error',
         'no-unused-expressions': 'off',
+        '@typescript-eslint/no-throw-literal': 'error',
+        'no-throw-literal': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
