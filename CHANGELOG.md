@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.5](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.4...v8.0.5) (2020-10-26)
+
+
+### Bug Fixes
+
+* disable redundant no-throw-literal from ESLint ([2bfb717](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/2bfb7170307c98a8895d15f8222fe1a1da5fb847))
+
 ### [8.0.4](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.3...v8.0.4) (2020-10-20)
 
 
@@ -167,6 +174,3 @@
 
 <a name="1.0.0"></a>
 # 1.0.0 (2018-11-05)
-
-
-
