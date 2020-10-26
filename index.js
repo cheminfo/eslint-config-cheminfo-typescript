@@ -111,6 +111,11 @@ module.exports = {
         '@typescript-eslint/no-array-constructor': 'error',
         'no-dupe-class-members': 'off',
         '@typescript-eslint/no-dupe-class-members': 'error',
+        'no-duplicate-imports': 'off',
+        '@typescript-eslint/no-duplicate-imports': [
+          'error',
+          { includeExports: false },
+        ],
         'no-empty-function': 'off',
         '@typescript-eslint/no-empty-function': 'warn',
         'no-extra-semi': 'off',
