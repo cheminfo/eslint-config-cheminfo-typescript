@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.6](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.5...v8.0.6) (2021-02-04)
+
+
+### Bug Fixes
+
+* only use TypeScript parser for TypeScript files ([e655cae](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/e655caea50c53c5cf1913ab178488e7bcbae1836))
+
 ### [8.0.5](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.4...v8.0.5) (2020-10-26)
 
 
