@@ -1,20 +1,17 @@
 'use strict';
 
 module.exports = {
-  extends: [
-    'cheminfo',
-    'plugin:import/typescript',
-    'prettier/@typescript-eslint',
-  ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    sourceType: 'module',
-    project: 'tsconfig.json',
-  },
-  plugins: ['@typescript-eslint'],
+  extends: ['cheminfo'],
   overrides: [
     {
       files: ['*.{ts,tsx}'],
+      extends: ['plugin:import/typescript', 'prettier/@typescript-eslint'],
+      plugins: ['@typescript-eslint'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        sourceType: 'module',
+        project: 'tsconfig.json',
+      },
       rules: {
         // Supported rules (https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules)
         '@typescript-eslint/adjacent-overload-signatures': 'error',
