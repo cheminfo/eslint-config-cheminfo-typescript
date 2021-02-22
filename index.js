@@ -33,7 +33,7 @@ module.exports = {
         '@typescript-eslint/no-base-to-string': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'off',
         '@typescript-eslint/no-dynamic-delete': 'error',
-        '@typescript-eslint/no-empty-interface': 'error',
+        '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/no-extra-non-null-assertion': 'off',
         '@typescript-eslint/no-extraneous-class': 'error',
