@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.6...v8.0.7) (2021-02-22)
+
+
+### Bug Fixes
+
+* disable no-empty-interface rule ([5506bb5](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/5506bb5f1a71abf8eea3691dd818abc5f7202080))
+
 ### [8.0.6](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.5...v8.0.6) (2021-02-04)
 
 
