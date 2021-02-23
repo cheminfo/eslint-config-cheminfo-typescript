@@ -5,7 +5,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.{ts,tsx}'],
-      extends: ['plugin:import/typescript', 'prettier/@typescript-eslint'],
+      extends: ['plugin:import/typescript'],
       plugins: ['@typescript-eslint'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
