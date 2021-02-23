@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.1",
-    "@typescript-eslint/parser": "^4.15.1",
-    "eslint-config-cheminfo": "^5.2.2"
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint-config-cheminfo": "^5.2.3"
   },
   "peerDependencies": {
     "eslint": ">=7.8.0",
