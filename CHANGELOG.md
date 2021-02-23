@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.8](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.7...v8.0.8) (2021-02-23)
+
+
+### Bug Fixes
+
+* do not extend prettier anymore ([fcccd71](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/fcccd711f624a59d2d95152e4651c823d6381a54))
+
 ### [8.0.7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.6...v8.0.7) (2021-02-22)
 
 
