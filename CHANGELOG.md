@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.9](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.8...v8.0.9) (2021-05-10)
+
+
+### Bug Fixes
+
+* remove Prettier ([5f4c848](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/5f4c848650c6f042e73baf5a48de3f5b0da2c2e6))
+
 ### [8.0.8](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.7...v8.0.8) (2021-02-23)
 
 
