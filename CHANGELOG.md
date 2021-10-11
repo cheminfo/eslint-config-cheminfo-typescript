@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.10](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.9...v8.0.10) (2021-10-11)
+
+
+### Bug Fixes
+
+* update dependencies ([89c9107](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/89c91076001bd12bda208c75f882b3a188fc150f))
+
 ### [8.0.9](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.8...v8.0.9) (2021-05-10)
 
 
