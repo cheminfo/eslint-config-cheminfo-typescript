@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.11](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.10...v8.0.11) (2021-10-12)
+
+
+### Bug Fixes
+
+* update typescript-eslint to v5.0.0 ([aef742c](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/aef742c4d22d925ae66c9917062130df2b5f5a7c))
+
 ### [8.0.10](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.9...v8.0.10) (2021-10-11)
 
 
