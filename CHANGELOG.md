@@ -1,5 +1,16 @@
 # Changelog
 
+## [9.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.11...v9.0.0) (2021-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* mark eslint plugins as peer dependencies
+
+### Bug Fixes
+
+* mark eslint plugins as peer dependencies ([f6af7c7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/f6af7c734b07ea1ce3fa2178069fea88fc114242))
+
 ### [8.0.11](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.10...v8.0.11) (2021-10-12)
 
 
