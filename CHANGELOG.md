@@ -1,5 +1,17 @@
 # Changelog
 
+## [10.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v9.0.0...v10.0.0) (2021-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* update to ESLint v8
+
+### Features
+
+* support cts and mts extensions ([b7913b7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/b7913b77c73fb2d87aa6c720e59396920e8cca59))
+* update to ESLint v8 ([039dfb7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/039dfb7cc61c1007a1a3175158c64ea4faf80780))
+
 ## [9.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v8.0.11...v9.0.0) (2021-10-12)
 
 
