@@ -21,18 +21,18 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^6.0.0"
+    "eslint-config-cheminfo": "^7.0.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.0.0",
-    "@typescript-eslint/parser": ">=5.0.0",
-    "eslint": ">=7.8.0",
-    "typescript": ">=4.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "typescript": "^4.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
-    "eslint": "7.8.0",
+    "eslint": "8.0.1",
     "prettier": "^2.4.1",
     "typescript": "4.0.2"
   }
