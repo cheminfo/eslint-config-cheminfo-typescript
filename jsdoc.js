@@ -2,9 +2,14 @@
 
 module.exports = {
   extends: ['cheminfo/jsdoc'],
-  rules: {
-    'jsdoc/require-param-type': 'off',
-    'jsdoc/require-returns-type': 'off',
-    'jsdoc/no-types': 'warn',
-  },
+  overrides: [
+    {
+      files: ['*.{ts,tsx,cts,mts}'],
+      rules: {
+        'jsdoc/require-param-type': 'off',
+        'jsdoc/require-returns-type': 'off',
+        'jsdoc/no-types': 'warn',
+      },
+    },
+  ],
 };
