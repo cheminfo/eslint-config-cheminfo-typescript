@@ -13,7 +13,7 @@ npx i -D eslint-config-cheminfo-typescript eslint
 Create a `.eslintrc.yml` with the following contents:
 
 ```yml
-extends: cheminfo-typescript
+extends: [cheminfo-typescript, cheminfo-typescript/jsdoc]
 ```
 
 You can then customize the config for your project by changing rules in this file.

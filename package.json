@@ -4,7 +4,8 @@
   "description": "Shared ESLint config for TypeScript projects",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "jsdoc.js"
   ],
   "scripts": {
     "test": "node test/test.mjs"
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^7.0.0"
+    "eslint-config-cheminfo": "^7.1.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
