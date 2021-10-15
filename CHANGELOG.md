@@ -1,5 +1,12 @@
 # Changelog
 
+### [10.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.1.0...v10.1.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* only disable type-related rules in TypeScript files ([02380b3](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/02380b355cede77f5c19480cb5e2130199197998))
+
 ## [10.1.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.0.0...v10.1.0) (2021-10-15)
 
 
