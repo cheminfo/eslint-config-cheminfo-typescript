@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.1.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.0.0...v10.1.0) (2021-10-15)
+
+
+### Features
+
+* add jsdoc config ([57a954d](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/57a954da9ffcc69a125f1525998d24f7505fdb21))
+
 ## [10.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v9.0.0...v10.0.0) (2021-10-15)
 
 
