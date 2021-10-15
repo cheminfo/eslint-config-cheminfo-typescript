@@ -1,15 +1,13 @@
-'use strict';
+import assert from 'assert';
+import util from 'util';
+import { ESLint } from 'eslint';
 
-const assert = require('assert');
-const util = require('util');
-const { CLIEngine } = require('eslint');
+const engine = new ESLint({ overrideConfigFile: 'index.js' });
 
-const engine = new CLIEngine({ configFile: 'index.js' });
-
-const [okResult, notOkResult] = engine.executeOnFiles([
+const [okResult, notOkResult] = await engine.lintFiles([
   'test/ok.ts',
   'test/notOk.ts',
-]).results;
+]);
 
 assert.strictEqual(
   okResult.errorCount,
