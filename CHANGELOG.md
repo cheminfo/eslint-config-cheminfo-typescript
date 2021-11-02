@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.2.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.1.1...v10.2.0) (2021-11-02)
+
+
+### Features
+
+* add naming-convention rule and disable no-parameter-properties ([7e158b8](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/7e158b8956ae9e433cef4040074b4c51fe7466e4))
+
 ### [10.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.1.0...v10.1.1) (2021-10-15)
 
 
