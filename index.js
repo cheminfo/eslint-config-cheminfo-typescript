@@ -52,7 +52,7 @@ module.exports = {
         '@typescript-eslint/no-namespace': 'error',
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'off',
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/no-parameter-properties': 'error',
+        '@typescript-eslint/no-parameter-properties': 'off',
         '@typescript-eslint/no-require-imports': 'off',
         '@typescript-eslint/no-this-alias': 'error',
         '@typescript-eslint/no-type-alias': 'off',
@@ -140,6 +140,44 @@ module.exports = {
         ],
         'no-return-await': 'off',
         '@typescript-eslint/return-await': 'error',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: ['typeLike'],
+            format: ['PascalCase']
+          },
+          {
+            selector: ['typeProperty', 'typeMethod'],
+            format: ['camelCase']
+          },
+          {
+            selector: ['variable'],
+            format: ['camelCase', 'UPPER_CASE']
+          },
+          {
+            selector: ['function'],
+            format: ['camelCase', 'PascalCase']
+          },
+          {
+            selector: [
+              'method',
+              'classProperty',
+              'classMethod',
+              'parameterProperty',
+              'accessor'
+            ],
+            format: ['camelCase'],
+            leadingUnderscore: 'allow'
+          },
+          {
+            selector: [
+              'objectLiteralProperty',
+              'objectLiteralMethod',
+              'enumMember',
+            ],
+            format: null
+          }
+        ],
       },
     },
     {
