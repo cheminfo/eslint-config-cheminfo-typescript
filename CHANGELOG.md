@@ -1,5 +1,12 @@
 # Changelog
 
+### [10.2.1](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.0...v10.2.1) (2021-11-02)
+
+
+### Bug Fixes
+
+* allow variables to be PascalCase ([0e22cd7](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/0e22cd7e78561206dfc36aa0d8446cd5284de3cf))
+
 ## [10.2.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.1.1...v10.2.0) (2021-11-02)
 
 
