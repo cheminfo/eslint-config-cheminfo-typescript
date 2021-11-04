@@ -144,19 +144,15 @@ module.exports = {
           'error',
           {
             selector: ['typeLike'],
-            format: ['PascalCase']
+            format: ['PascalCase'],
           },
           {
-            selector: ['typeProperty', 'typeMethod'],
-            format: ['camelCase']
+            selector: ['variable', 'typeProperty'],
+            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
           },
           {
-            selector: ['variable'],
-            format: ['camelCase', 'UPPER_CASE', 'PascalCase']
-          },
-          {
-            selector: ['function'],
-            format: ['camelCase', 'PascalCase']
+            selector: ['function', 'typeMethod'],
+            format: ['camelCase', 'PascalCase'],
           },
           {
             selector: [
@@ -164,10 +160,10 @@ module.exports = {
               'classProperty',
               'classMethod',
               'parameterProperty',
-              'accessor'
+              'accessor',
             ],
             format: ['camelCase'],
-            leadingUnderscore: 'allow'
+            leadingUnderscore: 'allow',
           },
           {
             selector: [
@@ -175,8 +171,8 @@ module.exports = {
               'objectLiteralMethod',
               'enumMember',
             ],
-            format: null
-          }
+            format: null,
+          },
         ],
       },
     },
