@@ -1,5 +1,12 @@
 # Changelog
 
+### [10.2.2](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.1...v10.2.2) (2021-11-04)
+
+
+### Bug Fixes
+
+* allow PascalCase and UPPER_CASE in type properties ([f5b0494](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/f5b04943c9fb7499ee102f6476d6308c213eeed6))
+
 ### [10.2.1](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.0...v10.2.1) (2021-11-02)
 
 
