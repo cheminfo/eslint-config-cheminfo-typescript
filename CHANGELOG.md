@@ -1,5 +1,12 @@
 # Changelog
 
+### [10.2.3](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.2...v10.2.3) (2021-11-22)
+
+
+### Bug Fixes
+
+* allow leading underscore in variable names and type properties ([7580587](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/75805875d882a66f4f1af0bae7d47ce333983bb1))
+
 ### [10.2.2](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.1...v10.2.2) (2021-11-04)
 
 
