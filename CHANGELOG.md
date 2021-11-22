@@ -1,5 +1,12 @@
 # Changelog
 
+### [10.2.4](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.3...v10.2.4) (2021-11-22)
+
+
+### Bug Fixes
+
+* allow double leading underscores ([95886fc](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/95886fcd73963f4d0a3ea9534211d6fbd704687a))
+
 ### [10.2.3](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.2...v10.2.3) (2021-11-22)
 
 
