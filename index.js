@@ -149,7 +149,7 @@ module.exports = {
           {
             selector: ['variable', 'typeProperty'],
             format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-            leadingUnderscore: 'allow',
+            leadingUnderscore: 'allowSingleOrDouble',
           },
           {
             selector: ['function', 'typeMethod'],
@@ -164,7 +164,7 @@ module.exports = {
               'accessor',
             ],
             format: ['camelCase'],
-            leadingUnderscore: 'allow',
+            leadingUnderscore: 'allowSingleOrDouble',
           },
           {
             selector: [
