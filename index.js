@@ -149,6 +149,7 @@ module.exports = {
           {
             selector: ['variable', 'typeProperty'],
             format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+            leadingUnderscore: 'allow',
           },
           {
             selector: ['function', 'typeMethod'],
