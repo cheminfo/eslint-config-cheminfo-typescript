@@ -17,7 +17,7 @@ module.exports = {
         '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/array-type': 'off',
         '@typescript-eslint/await-thenable': 'error',
-        '@typescript-eslint/ban-ts-comment': ['warn', { 'ts-ignore': true }],
+        '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': true }],
         '@typescript-eslint/ban-types': 'error',
         '@typescript-eslint/class-literal-property-style': 'off',
         '@typescript-eslint/consistent-type-assertions': 'error',
