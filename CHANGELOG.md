@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.3.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.4...v10.3.0) (2021-12-17)
+
+
+### Features
+
+* make ban-ts-comment an error ([c379d6b](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/c379d6b4871cb0fe39f39418914b1c1ad051bc9a))
+
 ### [10.2.4](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.3...v10.2.4) (2021-11-22)
 
 
