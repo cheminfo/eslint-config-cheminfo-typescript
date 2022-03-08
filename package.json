@@ -4,7 +4,9 @@
   "description": "Shared ESLint config for TypeScript projects",
   "main": "index.js",
   "files": [
+    "base.js",
     "index.js",
+    "jest.js",
     "jsdoc.js"
   ],
   "scripts": {
@@ -22,7 +24,7 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^7.1.1"
+    "eslint-config-cheminfo": "^7.3.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -34,7 +36,7 @@
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
     "eslint": "8.0.1",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.1",
     "typescript": "4.0.2"
   }
 }
