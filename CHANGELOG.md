@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.4.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.3.0...v10.4.0) (2022-03-08)
+
+
+### Features
+
+* split config into two base and jest configs ([0862d1f](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/commit/0862d1fb7c9f51db6f074307c3b859836a0a073e))
+
 ## [10.3.0](https://www.github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v10.2.4...v10.3.0) (2021-12-17)
 
 
