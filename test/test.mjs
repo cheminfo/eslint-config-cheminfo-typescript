@@ -26,7 +26,8 @@ const errors = notOkResult.messages
   .map((error) => error.ruleId)
   .sort();
 assert.deepStrictEqual(errors, [
-  '@typescript-eslint/consistent-type-definitions',
+  '@typescript-eslint/no-non-null-assertion',
+  '@typescript-eslint/no-unnecessary-type-assertion',
 ]);
 
 function isError(message) {
