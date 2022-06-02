@@ -35,7 +35,8 @@ module.exports = {
         ],
         '@typescript-eslint/no-for-in-array': 'error',
         '@typescript-eslint/no-inferrable-types': 'error',
-        '@typescript-eslint/no-invalid-void-type': 'error',
+        // Only affects special edge cases.
+        '@typescript-eslint/no-invalid-void-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
         '@typescript-eslint/no-misused-new': 'error',
         '@typescript-eslint/no-misused-promises': 'error',
@@ -43,7 +44,8 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-this-alias': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-        '@typescript-eslint/no-unnecessary-condition': 'error',
+        // Problematic when doing checks with array elements or values from records.
+        '@typescript-eslint/no-unnecessary-condition': 'off',
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/no-unnecessary-type-constraint': 'error',
         // TODO: enable no-unsafe rules when we are ready to ban `any` everywhere.
