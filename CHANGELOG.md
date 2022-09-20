@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.0.1...v11.1.0) (2022-09-20)
+
+
+### Features
+
+* update rules to v5.38.0 ([18bde10](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/18bde100dea35046eb1ceb172b1ebdd9ade5a923))
+
 ## [11.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.0.0...v11.0.1) (2022-06-02)
 
 
