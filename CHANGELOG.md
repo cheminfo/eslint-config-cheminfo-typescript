@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.2.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.0...v11.2.1) (2022-10-31)
+
+
+### Bug Fixes
+
+* remove prefer-regexp-exec ([59f2465](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/59f2465d6aec20260fc9a0243755248d22d5a617))
+
 ## [11.2.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.1.0...v11.2.0) (2022-10-31)
 
 
