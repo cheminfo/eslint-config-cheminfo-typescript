@@ -6,8 +6,8 @@
   "files": [
     "base.js",
     "index.js",
-    "jest.js",
-    "jsdoc.js"
+    "jsdoc.js",
+    "unicorn.js"
   ],
   "scripts": {
     "test": "node test/test.mjs"
@@ -24,19 +24,19 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^8.0.0"
+    "eslint-config-cheminfo": "^8.1.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
-    "eslint": "^8.16.0",
+    "eslint": "^8.26.0",
     "typescript": "^4.7.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.38.0",
     "@typescript-eslint/parser": "5.38.0",
-    "eslint": "8.16.0",
-    "prettier": "^2.6.2",
+    "eslint": "8.26.0",
+    "prettier": "^2.7.1",
     "typescript": "4.7.2"
   }
 }
