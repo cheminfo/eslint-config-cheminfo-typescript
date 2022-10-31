@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.2.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.1.0...v11.2.0) (2022-10-31)
+
+
+### Features
+
+* add unicorn config and remove jest config ([618ec22](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/618ec22461748b17c19644f44822fe1f57c44852))
+
 ## [11.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.0.1...v11.1.0) (2022-09-20)
 
 
