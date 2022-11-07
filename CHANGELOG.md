@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.2.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.1...v11.2.2) (2022-11-07)
+
+
+### Bug Fixes
+
+* include TypeScript overrides in base config ([a514a41](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/a514a41fdcadbda85b16146a613e8ce86c032634))
+
 ## [11.2.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.0...v11.2.1) (2022-10-31)
 
 
