@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.3.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.2...v11.3.0) (2023-03-10)
+
+
+### Features
+
+* update plugins ([baf3ae3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/baf3ae3aac0b00c01b0e44842ded962ccde79cbd))
+
 ## [11.2.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.1...v11.2.2) (2022-11-07)
 
 
