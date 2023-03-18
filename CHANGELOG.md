@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.3.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.3.0...v11.3.1) (2023-03-18)
+
+
+### Bug Fixes
+
+* allow TypeScript v5 ([677510d](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/677510d3629e946540ae74b3672945a1abd167dd))
+
 ## [11.3.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.2.2...v11.3.0) (2023-03-10)
 
 
