@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.1...v12.0.2) (2023-07-18)
+
+
+### Bug Fixes
+
+* configure array-type rule ([55bff12](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/55bff12ca6c93ae2aa7e6db7938ea41174876134))
+
 ## [12.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.0...v12.0.1) (2023-07-18)
 
 
