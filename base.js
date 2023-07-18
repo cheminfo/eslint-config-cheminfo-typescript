@@ -18,6 +18,7 @@ module.exports = {
       },
       rules: {
         // https://typescript-eslint.io/rules/
+        '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/no-floating-promises': [
           'error',
           {
@@ -51,6 +52,8 @@ module.exports = {
         '@typescript-eslint/default-param-last': 'error',
         'no-dupe-class-members': 'off',
         '@typescript-eslint/no-dupe-class-members': 'error',
+        'no-empty-function': 'off',
+        '@typescript-eslint/no-empty-function': 'warn',
         'no-extra-semi': 'off',
         '@typescript-eslint/no-extra-semi': 'error',
         'no-loop-func': 'off',
