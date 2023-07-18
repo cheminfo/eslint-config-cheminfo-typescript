@@ -4,7 +4,6 @@ export interface X {
 
 /**
  * This is a test.
- *
  * @param x - This is a x.
  * @returns The best number in the world.
  */
