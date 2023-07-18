@@ -1,5 +1,13 @@
 # Changelog
 
+## [12.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.0...v12.0.1) (2023-07-18)
+
+
+### Bug Fixes
+
+* disable new problematic rules ([27347ad](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/27347ad8f18ff409877cd680ec357f47d81a1761))
+* reintroduce warnings instead of errors ([94df95a](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/94df95ae5fc440111a1fde12cc397bf4c05a471b))
+
 ## [12.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v11.3.1...v12.0.0) (2023-07-18)
 
 
