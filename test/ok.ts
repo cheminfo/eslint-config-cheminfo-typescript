@@ -7,11 +7,11 @@ export interface X {
  * @param x - This is a x.
  * @returns The best number in the world.
  */
-function test(x: number) {
-  return x + 42;
+function test(x: readonly number[]) {
+  return x[0] + 42;
 }
 
-test(1);
+test([1]);
 
 /**
  * Logs 42.

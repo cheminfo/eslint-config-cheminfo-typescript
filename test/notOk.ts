@@ -5,3 +5,9 @@ function testX(x: number) {
 }
 
 testX(x!);
+
+function testY(y: (number | string)[]) {
+  return y;
+}
+
+testY([1, 2, 3, '4']);

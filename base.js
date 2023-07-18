@@ -19,6 +19,13 @@ module.exports = {
       rules: {
         // https://typescript-eslint.io/rules/
 
+        '@typescript-eslint/array-type': [
+          'error',
+          {
+            default: 'array-simple',
+            readonly: 'array-simple',
+          },
+        ],
         // Too noisy for now.
         '@typescript-eslint/no-confusing-void-expression': 'off',
         // Empty interfaces are common (React component props that extend others, AdonisJS default configs).
