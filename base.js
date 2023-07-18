@@ -18,6 +18,11 @@ module.exports = {
       },
       rules: {
         // https://typescript-eslint.io/rules/
+
+        // Too noisy for now.
+        '@typescript-eslint/no-confusing-void-expression': 'off',
+        // Empty interfaces are common (React component props that extend others, AdonisJS default configs).
+        '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/no-floating-promises': [
           'error',
@@ -36,6 +41,8 @@ module.exports = {
         '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unsafe-return': 'off',
         '@typescript-eslint/no-useless-empty-export': 'error',
+        // Clashes with no-non-null-assertion.
+        '@typescript-eslint/non-nullable-type-assertion-style': 'off',
         '@typescript-eslint/prefer-enum-initializers': 'warn',
         // TODO: enable when we are ready for it.
         '@typescript-eslint/prefer-nullish-coalescing': 'off',
@@ -47,6 +54,8 @@ module.exports = {
           { allowAny: true },
         ],
         '@typescript-eslint/switch-exhaustiveness-check': 'error',
+        // It is useful to split signatures for readability and documentation.
+        '@typescript-eslint/unified-signatures': 'off',
 
         'default-param-last': 'off',
         '@typescript-eslint/default-param-last': 'error',
