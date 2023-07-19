@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.2...v12.0.3) (2023-07-19)
+
+
+### Bug Fixes
+
+* disable require-await rule ([7d735af](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/7d735afbc3d3dba0bc17764f1c4a7657b44ffd59))
+
 ## [12.0.2](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.1...v12.0.2) (2023-07-18)
 
 
