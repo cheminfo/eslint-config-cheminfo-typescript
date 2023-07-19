@@ -55,6 +55,8 @@ module.exports = {
         '@typescript-eslint/prefer-nullish-coalescing': 'off',
         '@typescript-eslint/prefer-optional-chain': 'warn',
         '@typescript-eslint/require-array-sort-compare': 'error',
+        // We consider it valid to use `async` without `await` in some cases.
+        '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/restrict-template-expressions': [
           'error',
           // TODO: remove allowAny when we are ready.
