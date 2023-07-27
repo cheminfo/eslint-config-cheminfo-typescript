@@ -17,8 +17,8 @@ module.exports = {
         project: true,
       },
       rules: {
+        //region specific rules of typescript-eslint
         // https://typescript-eslint.io/rules/
-
         '@typescript-eslint/array-type': [
           'error',
           {
@@ -39,6 +39,14 @@ module.exports = {
         ],
         // Only affects special edge cases.
         '@typescript-eslint/no-invalid-void-type': 'off',
+        /**
+         * @see https://typescript-eslint.io/rules/no-redundant-type-constituents/
+         * > primitive types such as string "override" any of their literal types such as ""
+         *
+         * But `'literal' | string`
+         * can be use-full to suggest auto-complete to IDE about known and prevalent literals but accepts other strings
+         */
+        '@typescript-eslint/no-redundant-type-constituents': 'off',
         // Problematic when doing checks with array elements or values from records.
         '@typescript-eslint/no-unnecessary-condition': 'off',
         // TODO: enable no-unsafe rules when we are ready to ban `any` everywhere.
@@ -65,7 +73,9 @@ module.exports = {
         '@typescript-eslint/switch-exhaustiveness-check': 'error',
         // It is useful to split signatures for readability and documentation.
         '@typescript-eslint/unified-signatures': 'off',
+        //endregion
 
+        //region rules from eslint override by typescript-eslint
         'default-param-last': 'off',
         '@typescript-eslint/default-param-last': 'error',
         'no-dupe-class-members': 'off',
@@ -127,6 +137,7 @@ module.exports = {
             format: null,
           },
         ],
+        //endregion
       },
     },
   ],
