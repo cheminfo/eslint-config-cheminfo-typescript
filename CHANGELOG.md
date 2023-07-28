@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.4](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.3...v12.0.4) (2023-07-28)
+
+
+### Bug Fixes
+
+* disable @typescript-eslint/no-redundant-type-constituents ([#39](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/39)) ([da7cfb7](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/da7cfb72f60ba31ee215b5d632273569f5e12c1d))
+
 ## [12.0.3](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.2...v12.0.3) (2023-07-19)
 
 
