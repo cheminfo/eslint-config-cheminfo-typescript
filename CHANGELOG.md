@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.4...v12.1.0) (2023-12-05)
+
+
+### Features
+
+* update dependencies and add no-unsafe-unary-minus rule ([b5d5db9](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/b5d5db9121b37d6063fef1841bf65cb64fc5c853))
+
 ## [12.0.4](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.3...v12.0.4) (2023-07-28)
 
 
