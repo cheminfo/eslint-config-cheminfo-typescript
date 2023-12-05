@@ -55,6 +55,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-call': 'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unsafe-return': 'off',
+        '@typescript-eslint/no-unsafe-unary-minus': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
         // Clashes with no-non-null-assertion.
         '@typescript-eslint/non-nullable-type-assertion-style': 'off',
