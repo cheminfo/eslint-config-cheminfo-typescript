@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.2.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.1.0...v12.2.0) (2024-02-13)
+
+
+### Features
+
+* upgrade typescript-eslint to v7 ([4134c57](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/4134c577c9e31f998a6a9a29e7ff7e3d700c681f))
+
 ## [12.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.0.4...v12.1.0) (2023-12-05)
 
 
