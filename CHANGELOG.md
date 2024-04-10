@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.3.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.2.0...v12.3.0) (2024-04-10)
+
+
+### Features
+
+* enable no-unreachable eslint rule ([62d2246](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/62d2246aa3fa58667a705db9c626bf439caf5c4c))
+
 ## [12.2.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.1.0...v12.2.0) (2024-02-13)
 
 
