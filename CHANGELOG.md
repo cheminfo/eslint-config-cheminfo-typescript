@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.4.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.3.0...v12.4.0) (2024-05-01)
+
+
+### Features
+
+* add deprecation plugin ([#45](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/45)) ([7c1810e](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/7c1810e5d9460b7176690765cfa83ef8ea4b41da))
+
 ## [12.3.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.2.0...v12.3.0) (2024-04-10)
 
 
