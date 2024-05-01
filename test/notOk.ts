@@ -11,3 +11,12 @@ function testY(y: (number | string)[]) {
 }
 
 testY([1, 2, 3, '4']);
+
+deprecatedFn();
+
+/**
+ * @deprecated
+ */
+function deprecatedFn() {
+  return 42;
+}

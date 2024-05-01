@@ -10,13 +10,15 @@ module.exports = {
         'plugin:@typescript-eslint/strict-type-checked',
         'plugin:@typescript-eslint/stylistic-type-checked',
       ],
-      plugins: ['@typescript-eslint'],
+      plugins: ['@typescript-eslint', 'deprecation'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         sourceType: 'module',
         project: true,
       },
       rules: {
+        'deprecation/deprecation': 'warn',
+
         //region specific rules of typescript-eslint
         // https://typescript-eslint.io/rules/
         '@typescript-eslint/array-type': [
