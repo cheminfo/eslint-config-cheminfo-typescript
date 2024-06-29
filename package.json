@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheminfo-typescript",
-  "version": "12.4.0",
+  "version": "13.0.0",
   "description": "Shared ESLint config for TypeScript projects",
   "main": "index.js",
   "files": [
