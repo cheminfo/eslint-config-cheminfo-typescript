@@ -1,5 +1,16 @@
 # Changelog
 
+## [13.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.4.0...v13.0.0) (2024-06-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies
+
+### Features
+
+* update dependencies ([4d78035](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/4d7803594d7105852fac978f78d0d5f2933e3fd7))
+
 ## [12.4.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.3.0...v12.4.0) (2024-05-01)
 
 
