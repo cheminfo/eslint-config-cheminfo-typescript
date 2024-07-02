@@ -1,5 +1,16 @@
 # Changelog
 
+## [14.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v13.0.0...v14.0.0) (2024-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to ESLint flat config
+
+### Features
+
+* migrate to ESLint flat config ([740220d](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/740220da838cc5930eaf29ff536664fa5026337b))
+
 ## [13.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v12.4.0...v13.0.0) (2024-06-29)
 
 
