@@ -1,5 +1,5 @@
-'use strict';
+import base from './base.js';
+import jsdoc from './jsdoc.js';
+import unicorn from './unicorn.js';
 
-module.exports = {
-  extends: ['./base.js'],
-};
+export default [...base, ...jsdoc, ...unicorn];

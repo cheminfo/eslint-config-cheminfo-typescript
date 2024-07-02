@@ -10,16 +10,15 @@ npx i -D eslint-config-cheminfo-typescript eslint
 
 ## Usage
 
-Create a `.eslintrc.yml` with the following contents:
+Create a `eslint.config.mjs` file with the following contents:
 
-```yml
-extends:
-  - cheminfo-typescript
-  - cheminfo-typescript/jsdoc
-  - cheminfo-typescript/unicorn
+```js
+import cheminfo from 'eslint-config-cheminfo-typescript';
+
+export default [...cheminfo];
 ```
 
-You can then customize the config for your project by changing rules in this file.
+You can then customize the config for your project.
 
 ## References
 
