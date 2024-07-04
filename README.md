@@ -2,10 +2,14 @@
 
 Shared ESLint config for TypeScript projects.
 
+> [!IMPORTANT]  
+> Configs now require to use the ESLint Flat Config format.
+> See the [migration guide](https://github.com/cheminfo/eslint-config/blob/main/MIGRATION.md) for more information.
+
 ## Installation
 
 ```console
-npx i -D eslint-config-cheminfo-typescript eslint@^8.57.0
+npm i -D eslint-config-cheminfo-typescript eslint@^8.57.0
 ```
 
 ## Usage
@@ -22,4 +26,4 @@ You can then customize the config for your project.
 
 ## References
 
-This config extends our base [`eslint-config-cheminfo`](https://github.com/cheminfo/eslint-config) JavaScript config.
+This config extends our [`eslint-config-cheminfo`](https://github.com/cheminfo/eslint-config) JavaScript config.
