@@ -1,3 +1,1 @@
-import { default as jsdoc } from 'eslint-config-cheminfo/jsdoc';
-
-export default jsdoc;
+export { default } from 'eslint-config-cheminfo/jsdoc';

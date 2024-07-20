@@ -1,33 +1,19 @@
 import assert from 'node:assert';
-import fs from 'node:fs';
-import util from 'node:util';
 
-import { Linter } from 'eslint';
+import { loadESLint } from 'eslint';
 
-import config from '../index.js';
+const ESLint = await loadESLint({ useFlatConfig: true });
+/** @type {import('eslint').ESLint} */
+const eslint = new ESLint();
 
-const linter = new Linter({ configType: 'flat' });
+const [okResult, notOkResult] = await eslint.lintFiles([
+  'test/ok.ts',
+  'test/not_ok.ts',
+]);
 
-function readTestFile(filename) {
-  return fs.readFileSync(new URL(`./${filename}`, import.meta.url), 'utf8');
-}
+assert.strictEqual(okResult.errorCount, 0, 'ok.ts should have no error');
 
-function verifyTestFile(filename) {
-  return linter.verify(readTestFile(filename), config, {
-    filename: `test/${filename}`,
-  });
-}
-
-const okResult = verifyTestFile('ok.ts');
-assert.strictEqual(
-  okResult.length,
-  0,
-  `ok.js should have no error: ${util.inspect(okResult)}`,
-);
-
-const notOkResult = verifyTestFile('not_ok.ts');
-
-const errors = notOkResult.filter(isError).map(getRuleId).sort();
+const errors = notOkResult.messages.filter(isError).map(getRuleId).sort();
 
 assert.deepStrictEqual(errors, [
   '@typescript-eslint/array-type',
@@ -35,7 +21,7 @@ assert.deepStrictEqual(errors, [
   '@typescript-eslint/no-unnecessary-type-assertion',
 ]);
 
-const warnings = notOkResult
+const warnings = notOkResult.messages
   .filter(isWarning)
   .filter(excludeJsdoc)
   .map(getRuleId)

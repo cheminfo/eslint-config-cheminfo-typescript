@@ -16,9 +16,11 @@
     "unicorn.js"
   ],
   "scripts": {
+    "eslint": "eslint *.js test/test.js",
+    "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check .",
     "prettier-write": "prettier --write .",
-    "test": "npm run test-only && npm run prettier",
+    "test": "npm run test-only && npm run eslint && npm run prettier",
     "test-only": "node test/test.js"
   },
   "repository": {
@@ -33,9 +35,9 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^11.0.2",
+    "eslint-config-cheminfo": "^11.0.4",
     "eslint-plugin-deprecation": "^3.0.0",
-    "typescript-eslint": "^7.15.0"
+    "typescript-eslint": "^7.16.1"
   },
   "peerDependencies": {
     "eslint": "^8.57.0",
@@ -44,7 +46,7 @@
   "devDependencies": {
     "cheminfo-types": "^1.7.3",
     "eslint": "8.57.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "typescript": "5.4.5"
   }
 }
