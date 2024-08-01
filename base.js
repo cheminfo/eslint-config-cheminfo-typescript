@@ -8,14 +8,13 @@ export default tseslint.config(...cheminfoBase, {
     deprecation,
   },
   extends: [
-    // TODO: setup again when the plugin supports flat config.
-    // 'plugin:import/typescript',
     ...tseslint.configs.strictTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
   ],
   languageOptions: {
     parserOptions: {
-      project: true,
+      projectService: true,
+      warnOnUnsupportedTypeScriptVersion: false,
     },
   },
   rules: {
@@ -59,7 +58,6 @@ export default tseslint.config(...cheminfoBase, {
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-return': 'off',
-    '@typescript-eslint/no-unsafe-unary-minus': 'error',
     '@typescript-eslint/no-useless-empty-export': 'error',
     // Clashes with no-non-null-assertion.
     '@typescript-eslint/non-nullable-type-assertion-style': 'off',
@@ -67,6 +65,7 @@ export default tseslint.config(...cheminfoBase, {
     // TODO: enable when we are ready for it.
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
     '@typescript-eslint/prefer-optional-chain': 'warn',
+    '@typescript-eslint/prefer-regexp-exec': 'off',
     '@typescript-eslint/require-array-sort-compare': 'error',
     // We consider it valid to use `async` without `await` in some cases.
     '@typescript-eslint/require-await': 'off',
@@ -87,8 +86,6 @@ export default tseslint.config(...cheminfoBase, {
     '@typescript-eslint/no-dupe-class-members': 'error',
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'warn',
-    'no-extra-semi': 'off',
-    '@typescript-eslint/no-extra-semi': 'error',
     'no-loop-func': 'off',
     '@typescript-eslint/no-loop-func': 'error',
     'no-redeclare': 'off',
@@ -96,20 +93,11 @@ export default tseslint.config(...cheminfoBase, {
     // no-unreachable is disabled by the typescript-eslint plugin, because it can be checked by the TypeScript compiler.
     // But we re-enable here it because treating it as an error requires setting `allowUnreachableCode` to false in the compiler options.
     'no-unreachable': 'error',
-    'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions': 'error',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
     ],
-    'padding-line-between-statements': 'off',
-    '@typescript-eslint/padding-line-between-statements': [
-      'error',
-      { blankLine: 'always', prev: 'directive', next: '*' },
-    ],
-    'no-return-await': 'off',
-    '@typescript-eslint/return-await': 'error',
     '@typescript-eslint/naming-convention': [
       'error',
       {
