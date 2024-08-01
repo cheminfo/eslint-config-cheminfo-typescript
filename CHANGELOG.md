@@ -1,5 +1,16 @@
 # Changelog
 
+## [15.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v14.0.0...v15.0.0) (2024-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* update typescript-eslint to v8 and enforce TS >=5.5
+
+### Features
+
+* update typescript-eslint to v8 and enforce TS &gt;=5.5 ([e32b7b6](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/e32b7b608939207f2c33fdc5accab373a84402e8))
+
 ## [14.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v13.0.0...v14.0.0) (2024-07-02)
 
 
