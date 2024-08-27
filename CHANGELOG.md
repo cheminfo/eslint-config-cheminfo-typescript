@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v15.0.0...v15.0.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* replace deprecation plugin with builtin no-deprecated rule ([09ae60c](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/09ae60cb478b1a4325a9a0d0d872ded2067ad494))
+
 ## [15.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v14.0.0...v15.0.0) (2024-08-01)
 
 
