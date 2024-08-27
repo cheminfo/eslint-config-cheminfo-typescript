@@ -1,12 +1,8 @@
 import cheminfoBase from 'eslint-config-cheminfo/base';
-import deprecation from 'eslint-plugin-deprecation';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(...cheminfoBase, {
   files: ['**/*.{ts,tsx,cts,mts}'],
-  plugins: {
-    deprecation,
-  },
   extends: [
     ...tseslint.configs.strictTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
@@ -18,8 +14,6 @@ export default tseslint.config(...cheminfoBase, {
     },
   },
   rules: {
-    'deprecation/deprecation': 'warn',
-
     //region specific rules of typescript-eslint
     // https://typescript-eslint.io/rules/
     '@typescript-eslint/array-type': [
@@ -31,6 +25,7 @@ export default tseslint.config(...cheminfoBase, {
     ],
     // Too noisy for now.
     '@typescript-eslint/no-confusing-void-expression': 'off',
+    '@typescript-eslint/no-deprecated': 'warn',
     // Empty interfaces are common (React component props that extend others, AdonisJS default configs).
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
@@ -42,6 +37,7 @@ export default tseslint.config(...cheminfoBase, {
     ],
     // Only affects special edge cases.
     '@typescript-eslint/no-invalid-void-type': 'off',
+
     /**
      * @see https://typescript-eslint.io/rules/no-redundant-type-constituents/
      * > primitive types such as string "override" any of their literal types such as ""

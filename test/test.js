@@ -26,7 +26,7 @@ const warnings = notOkResult.messages
   .filter(excludeJsdoc)
   .map(getRuleId)
   .sort();
-assert.deepStrictEqual(warnings, ['deprecation/deprecation']);
+assert.deepStrictEqual(warnings, ['@typescript-eslint/no-deprecated']);
 
 function isError(message) {
   return message.severity === 2;
