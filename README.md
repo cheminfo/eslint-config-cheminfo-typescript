@@ -9,7 +9,7 @@ Shared ESLint config for TypeScript projects.
 ## Installation
 
 ```console
-npm i -D eslint-config-cheminfo-typescript eslint@^8.57.0
+npm i -D eslint-config-cheminfo-typescript eslint
 ```
 
 ## Usage
