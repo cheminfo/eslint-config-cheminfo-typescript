@@ -1,5 +1,18 @@
 # Changelog
 
+## [16.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v15.0.1...v16.0.0) (2024-10-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* move `prefer-enum-initializers` and `prefer-optional-chain` to error
+* update dependencies and support ESLint 9
+
+### Features
+
+* move `prefer-enum-initializers` and `prefer-optional-chain` to error ([8ee892b](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/8ee892b85048aaad3d092c14b15c565e35eea5e7))
+* update dependencies and support ESLint 9 ([86a5295](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/86a52955deab63069a234b106c682286eb627c83))
+
 ## [15.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v15.0.0...v15.0.1) (2024-08-27)
 
 
