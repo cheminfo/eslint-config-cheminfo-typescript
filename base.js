@@ -57,10 +57,10 @@ export default tseslint.config(...cheminfoBase, {
     '@typescript-eslint/no-useless-empty-export': 'error',
     // Clashes with no-non-null-assertion.
     '@typescript-eslint/non-nullable-type-assertion-style': 'off',
-    '@typescript-eslint/prefer-enum-initializers': 'warn',
+    '@typescript-eslint/prefer-enum-initializers': 'error',
     // TODO: enable when we are ready for it.
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
-    '@typescript-eslint/prefer-optional-chain': 'warn',
+    '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'off',
     '@typescript-eslint/require-array-sort-compare': 'error',
     // We consider it valid to use `async` without `await` in some cases.
