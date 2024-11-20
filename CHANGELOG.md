@@ -1,5 +1,18 @@
 # Changelog
 
+## [17.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v16.0.0...v17.0.0) (2024-11-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* ensure consistent type imports
+* update base JS config and require ESLint >=9.15.0
+
+### Features
+
+* ensure consistent type imports ([5e4a662](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/5e4a6626751e7dfd22285d98b076d40119b18a28))
+* update base JS config and require ESLint &gt;=9.15.0 ([89c8491](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/89c84918189be5c347905f8a219e1bfca597f351))
+
 ## [16.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v15.0.1...v16.0.0) (2024-10-05)
 
 
