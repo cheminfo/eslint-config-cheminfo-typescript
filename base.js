@@ -23,6 +23,8 @@ export default tseslint.config(...cheminfoBase, {
         readonly: 'array-simple',
       },
     ],
+    '@typescript-eslint/consistent-type-imports': 'error',
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
     // Too noisy for now.
     '@typescript-eslint/no-confusing-void-expression': 'off',
     '@typescript-eslint/no-deprecated': 'warn',

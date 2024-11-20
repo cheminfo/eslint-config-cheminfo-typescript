@@ -1,6 +1,7 @@
-import { DataXY } from 'cheminfo-types';
+import type { DataXY } from 'cheminfo-types';
 
-import { TestType, testValue } from './internal_dep';
+import type { TestType } from './internal_dep';
+import { testValue } from './internal_dep';
 
 export interface X {
   v: string;
