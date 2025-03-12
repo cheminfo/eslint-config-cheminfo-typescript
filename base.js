@@ -1,11 +1,12 @@
+import { defineConfig } from 'eslint/config';
 import cheminfoBase from 'eslint-config-cheminfo/base';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(...cheminfoBase, {
+export default defineConfig(cheminfoBase, {
   files: ['**/*.{ts,tsx,cts,mts}'],
   extends: [
-    ...tseslint.configs.strictTypeChecked,
-    ...tseslint.configs.stylisticTypeChecked,
+    tseslint.configs.strictTypeChecked,
+    tseslint.configs.stylisticTypeChecked,
   ],
   languageOptions: {
     parserOptions: {
