@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v18.0.0...v18.0.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* add name to config object ([f948d9f](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/f948d9fd931ad9859f2b1356193f93c38f839eb8))
+
 ## [18.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v17.0.0...v18.0.0) (2025-03-12)
 
 
