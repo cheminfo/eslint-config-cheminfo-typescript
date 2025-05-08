@@ -3,6 +3,7 @@ import cheminfoBase from 'eslint-config-cheminfo/base';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig(cheminfoBase, {
+  name: 'cheminfo/typescript/rules',
   files: ['**/*.{ts,tsx,cts,mts}'],
   extends: [
     tseslint.configs.strictTypeChecked,
