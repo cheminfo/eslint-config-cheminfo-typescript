@@ -1,5 +1,5 @@
 import { defineConfig } from 'eslint/config';
 
-import cheminfoTs from './index.js';
+import cheminfoTs from './configs/index.js';
 
 export default defineConfig(cheminfoTs);
