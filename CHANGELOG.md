@@ -1,5 +1,16 @@
 # Changelog
 
+## [19.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v18.0.1...v19.0.0) (2025-07-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* update base config and add Vitest config ([#61](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/61))
+
+### Features
+
+* update base config and add Vitest config ([#61](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/61)) ([d699b93](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/d699b936e7358c2a14e403819fd00356a107dda7))
+
 ## [18.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v18.0.0...v18.0.1) (2025-05-08)
 
 
