@@ -13,7 +13,7 @@ const [okResult, notOkResult] = await eslint.lintFiles([
 
 assert.strictEqual(okResult.errorCount, 0, 'ok.ts should have no error');
 
-const errors = notOkResult.messages.filter(isError).map(getRuleId).sort();
+const errors = notOkResult.messages.filter(isError).map(getRuleId).toSorted();
 
 assert.deepStrictEqual(errors, [
   '@typescript-eslint/array-type',
@@ -25,7 +25,7 @@ const warnings = notOkResult.messages
   .filter(isWarning)
   .filter(excludeJsdoc)
   .map(getRuleId)
-  .sort();
+  .toSorted();
 assert.deepStrictEqual(warnings, ['@typescript-eslint/no-deprecated']);
 
 function isError(message) {
