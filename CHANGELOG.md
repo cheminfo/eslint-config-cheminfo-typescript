@@ -1,5 +1,16 @@
 # Changelog
 
+## [20.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v19.0.0...v20.0.0) (2025-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update base config ([#63](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/63))
+
+### Features
+
+* update base config ([#63](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/63)) ([e4ea110](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/e4ea110346076bd45bf4e12dafd3cae8cf0d42bb))
+
 ## [19.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v18.0.1...v19.0.0) (2025-07-08)
 
 
