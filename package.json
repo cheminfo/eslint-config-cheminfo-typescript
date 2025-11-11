@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheminfo-typescript",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Shared ESLint config for TypeScript projects",
   "type": "module",
   "exports": {

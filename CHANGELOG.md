@@ -1,5 +1,16 @@
 # Changelog
 
+## [21.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v20.0.0...v21.0.0) (2025-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update plugins and ESLint peer dependency ([#65](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/65))
+
+### Features
+
+* update plugins and ESLint peer dependency ([#65](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/65)) ([8a004ca](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/8a004ca58a495262246862a3ef9ca2817ce50907))
+
 ## [20.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v19.0.0...v20.0.0) (2025-09-11)
 
 
