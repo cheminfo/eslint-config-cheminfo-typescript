@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.0.1](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v21.0.0...v21.0.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* remove no-redeclare rule ([#67](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/67)) ([3147e35](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/3147e35893d477d25b4492c3601e6cc16d01c558))
+
 ## [21.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v20.0.0...v21.0.0) (2025-11-11)
 
 
