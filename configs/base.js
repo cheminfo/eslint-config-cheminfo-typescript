@@ -88,8 +88,8 @@ export default defineConfig(cheminfoBase, {
     '@typescript-eslint/no-empty-function': 'warn',
     'no-loop-func': 'off',
     '@typescript-eslint/no-loop-func': 'error',
+    // TypeScript handles this: https://typescript-eslint.io/rules/no-redeclare/
     'no-redeclare': 'off',
-    '@typescript-eslint/no-redeclare': 'error',
     // no-unreachable is disabled by the typescript-eslint plugin, because it can be checked by the TypeScript compiler.
     // But we re-enable here it because treating it as an error requires setting `allowUnreachableCode` to false in the compiler options.
     'no-unreachable': 'error',
