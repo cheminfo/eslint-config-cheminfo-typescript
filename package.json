@@ -33,17 +33,17 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-typescript#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^17.0.0",
-    "typescript-eslint": "^8.46.4"
+    "eslint-config-cheminfo": "^17.1.0",
+    "typescript-eslint": "^8.53.1"
   },
   "peerDependencies": {
     "eslint": "^9.39.1",
     "typescript": ">=5.7.3"
   },
   "devDependencies": {
-    "cheminfo-types": "^1.8.1",
+    "cheminfo-types": "^1.10.0",
     "eslint": "9.39.1",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.0",
     "typescript": "5.7.3"
   }
 }
