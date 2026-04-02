@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.2.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v21.1.0...v21.2.0) (2026-04-02)
+
+
+### Features
+
+* update base config and disable problematic rule ([#78](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/78)) ([0185a2b](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/0185a2b630a799bcbda522a869de50e52c27de55))
+
 ## [21.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v21.0.1...v21.1.0) (2026-01-20)
 
 
