@@ -52,6 +52,8 @@ export default defineConfig(cheminfoBase, {
     '@typescript-eslint/no-redundant-type-constituents': 'off',
     // Problematic when doing checks with array elements or values from records.
     '@typescript-eslint/no-unnecessary-condition': 'off',
+    // https://github.com/typescript-eslint/typescript-eslint/issues/12158
+    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     // TODO: enable no-unsafe rules when we are ready to ban `any` everywhere.
     '@typescript-eslint/no-unsafe-argument': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
