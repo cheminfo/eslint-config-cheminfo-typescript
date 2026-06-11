@@ -1,5 +1,12 @@
 # Changelog
 
+## [22.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v22.0.0...v22.1.0) (2026-06-11)
+
+
+### Features
+
+* update dependencies ([#82](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/82)) ([4ae03ae](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/4ae03ae5264ca68c8a749d4058125d8641b84d7c))
+
 ## [22.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v21.2.0...v22.0.0) (2026-04-15)
 
 
