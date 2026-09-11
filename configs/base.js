@@ -64,6 +64,7 @@ export default defineConfig(cheminfoBase, {
     // Clashes with no-non-null-assertion.
     '@typescript-eslint/non-nullable-type-assertion-style': 'off',
     '@typescript-eslint/prefer-enum-initializers': 'error',
+    '@typescript-eslint/prefer-for-of': 'off',
     // TODO: enable when we are ready for it.
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
     '@typescript-eslint/prefer-optional-chain': 'error',
