@@ -1,5 +1,16 @@
 # Changelog
 
+## [23.0.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v22.1.0...v23.0.0) (2026-09-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* update ESLint to v10 ([#85](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/85))
+
+### Features
+
+* update ESLint to v10 ([#85](https://github.com/cheminfo/eslint-config-cheminfo-typescript/issues/85)) ([1ce1761](https://github.com/cheminfo/eslint-config-cheminfo-typescript/commit/1ce17616f0999624e59f954d2300362406adf63c))
+
 ## [22.1.0](https://github.com/cheminfo/eslint-config-cheminfo-typescript/compare/v22.0.0...v22.1.0) (2026-06-11)
 
 
