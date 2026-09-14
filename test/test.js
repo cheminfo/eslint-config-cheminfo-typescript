@@ -3,7 +3,9 @@ import assert from 'node:assert';
 import { loadESLint } from 'eslint';
 
 const ESLint = await loadESLint({ useFlatConfig: true });
-/** @type {import('eslint').ESLint} */
+/**
+ * @type {import('eslint').ESLint}
+ */
 const eslint = new ESLint();
 
 const [okResult, notOkResult] = await eslint.lintFiles([
@@ -13,7 +15,10 @@ const [okResult, notOkResult] = await eslint.lintFiles([
 
 assert.strictEqual(okResult.errorCount, 0, 'ok.ts should have no error');
 
-const errors = notOkResult.messages.filter(isError).map(getRuleId).toSorted();
+const errors = notOkResult.messages
+  .filter(isError)
+  .map(getRuleId)
+  .toSorted((a, b) => a.localeCompare(b));
 
 assert.deepStrictEqual(errors, [
   '@typescript-eslint/array-type',
@@ -23,9 +28,9 @@ assert.deepStrictEqual(errors, [
 
 const warnings = notOkResult.messages
   .filter(isWarning)
-  .filter(excludeJsdoc)
+  .filter(isJsdoc)
   .map(getRuleId)
-  .toSorted();
+  .toSorted((a, b) => a.localeCompare(b));
 assert.deepStrictEqual(warnings, ['@typescript-eslint/no-deprecated']);
 
 function isError(message) {
@@ -36,7 +41,7 @@ function isWarning(message) {
   return message.severity === 1;
 }
 
-function excludeJsdoc(message) {
+function isJsdoc(message) {
   return !message.ruleId.startsWith('jsdoc/');
 }
 

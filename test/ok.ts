@@ -23,6 +23,7 @@ function test(x: readonly number[]) {
   return x[0] + 42;
 }
 
+// eslint-disable-next-line unicorn/no-top-level-side-effects
 test([1]);
 
 /**
